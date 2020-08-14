@@ -1,0 +1,6 @@
+/* The line below hides percentage in the 'Total' row for student grade page*/
+#submission_final-grade .score_holder {display:none;}
+/* The line below hides percentage in the 'Total' grade with letter grade for student grade page*/
+#student-grades-right-content .grade {display:none;}
+/* The line below hides percentage in the summary row for each assignment type for student grade page*/
+tr.group_total span.grade {display:none;}
