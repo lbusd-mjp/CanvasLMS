@@ -1,0 +1,13 @@
+.ic-Login-Body #ui-id-1.ui-dialog-title {
+	text-indent: -9999px;
+	line-height: 0; /* Collapse the original line */
+}
+.ic-Login-Body #ui-id-1.ui-dialog-title:after {
+	content:'Parent/Guardian/Observer Signup';
+	text-indent: 0;
+	display: block;
+	line-height: normal; /* New content takes up original line height */
+}
+.ic-app-header__logomark-container a {
+	color: #FFF;
+}
