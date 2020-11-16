@@ -31,9 +31,9 @@ if(pathParts[1] ==='courses' && pathParts[3] ==='grades') {
 		//console.log(data);
 	  if (request.status >= 200 && request.status < 400) {
 			console.log("data.grading_standard_id = " + data.grading_standard_id);
-			// 'Elementary Scale Grading (LBUSD)' has id = 118
+			// 'Elementary Scale Grading (LBUSD)' has id = 5574 was 118
 			// 'Secondary Scale Grading (LBUSD)' has id = 2
-			if(data.grading_standard_id === 2 || data.grading_standard_id === 118){
+			if(data.grading_standard_id === 2 || data.grading_standard_id === 5574){
 				// Apply css to specific elements
 				$('#submission_final-grade .score_holder').hide();
 				$('#student-grades-right-content .grade').hide()
